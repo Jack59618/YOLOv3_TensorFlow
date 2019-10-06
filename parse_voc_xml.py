@@ -5,7 +5,7 @@ import os
 
 names_dict = {}
 cnt = 0
-f = open('./voc_names.txt', 'r').readlines()
+f = open('./data/my_data/voc.names', 'r').readlines()
 for line in f:
     line = line.strip()
     names_dict[line] = cnt
